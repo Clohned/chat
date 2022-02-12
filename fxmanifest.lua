@@ -1,12 +1,23 @@
 fx_version 'adamant'
-games { 'rdr3', 'gta5' }
+games { 'gta5' }
 
 lua54 'yes'
 
-ui_page 'html/index.html'
+client_scripts {
+  'cl_chat.lua'
+}
 
-client_script 'cl_chat.lua'
-server_script 'sv_chat.lua'
+shared_scripts {
+  '@es_extended/imports.lua',
+  '@oxmysql/lib/MySQL.lua',
+  'config.lua'
+}
+
+server_scripts {
+  'sv_chat.lua'
+}
+
+ui_page 'html/index.html'
 
 files {
     'html/index.html',
