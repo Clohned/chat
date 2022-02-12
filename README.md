@@ -6,7 +6,7 @@ Simple text-based styled RP chat inspired by servers like LS-RP & GTA World. Thi
 
 # Features
 
-- Written entirely on the `server` side for better optimization.
+- The `textchat` resource was written entirely on the server side for optimization purposes. The `chat` resource is just the default FiveM chat with a edited `.css`
 
 - Includes the following commands:
 
