@@ -30,6 +30,8 @@ Simple text-based styled RP chat inspired by servers like LS-RP & GTA World. Thi
 
 # Requirements
 
+- onesync infinity --> Your server must be running on `onesynce infinity` or this chat will **NOT** work. https://gyazo.com/833dd4a67a3c84fbe8e27eb697d6179e
+
 - [es_extended](https://github.com/overextended/es_extended) --> This was made and tested on [Overextended's](https://github.com/overextended) version of ESX.
 
 **NOTE: I will not be providing diirect support for this, the code is pretty simple and easy to work with if you know what your doing.**
