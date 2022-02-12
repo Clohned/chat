@@ -6,7 +6,7 @@ Simple text-based styled RP chat inspired by servers like LS-RP & GTA World. Thi
 
 # Features
 
-- The `textchat` resource was written entirely on the server side for optimization purposes. The `chat` resource is just the default FiveM chat with a edited `.css`
+- This text chat was written entirely on the server side for optimization purposes. Keep in mind this is the default `chat` resource, it just has a lot of additional code.
 
 - Includes the following commands:
 
@@ -24,9 +24,7 @@ Simple text-based styled RP chat inspired by servers like LS-RP & GTA World. Thi
 
 # Installation
 
-- Swap out your old `chat` resource in replace for this one.
-
-- Put `ensure textchat` server.cfg.
+- Swap out your old `chat` resource in replace for this one. If you do not have one, be sure to put `ensure chat` in your server.cfg
 
 # Requirements
 
